@@ -78,8 +78,8 @@ public class Main {
 		Document user = new Document();
 		user
 			.append("name", "Francisca")
-			.append("email", "francisca.alves.silva.55@gmail.com")
-			.append("password", "551");
+			.append("email", "franciscagmail.com")
+			.append("password", "123");
 
 		users.insertOne(user);
 
@@ -92,27 +92,27 @@ public class Main {
 
 		Document francisca = new Document();
 		francisca
-			.append("name", "Francisca Alves")
-			.append("email", "francisca.alves.silva.55@gmail.com")
-			.append("password", "551");
+			.append("name", "Francisca")
+			.append("email", "francisca@gmail.com")
+			.append("password", "123");
 
 		Document maisa = new Document();
 		maisa
-			.append("name", "Maisa Oliveira")
-			.append("email", "maisaoliveira161@gmail.com")
-			.append("password", "161");
+			.append("name", "Maisa")
+			.append("email", "maisao@gmail.com")
+			.append("password", "123");
 		
 		Document pedro = new Document();
 		pedro
-			.append("name", "Pedro Ferreira")
+			.append("name", "Pedro")
 			.append("email", "pedroferreiracjr@gmail.com")
 			.append("password", "123");
 		
 		Document mirela = new Document();
 		mirela
-			.append("name", "Mirela Brito")
-			.append("email", "mirela.brito@gmail.com")
-			.append("password", "121300");
+			.append("name", "Mirela")
+			.append("email", "mirela@gmail.com")
+			.append("password", "123");
 		
 		users.insertMany(Arrays.asList(francisca, maisa, pedro, mirela));
 
